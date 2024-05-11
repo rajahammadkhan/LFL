@@ -1,0 +1,586 @@
+@font-face {
+    font-family: 'gotham-light';
+    src: url("../fonts/GothamLight.ttf")
+}
+
+@font-face {
+    font-family: 'gotham-medium';
+    src: url("../fonts/GothamMedium.ttf")
+}
+
+@font-face {
+    font-family: 'gotham-bold';
+    src: url("../fonts/GothamBold.ttf")
+}
+
+@font-face {
+    font-family: 'poppin';
+    src: url("../fonts/Poppins-Regular.ttf")
+}
+
+@font-face {
+    font-family: 'poppin-bold';
+    src: url("../fonts/Poppins-Bold.ttf")
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'poppin';
+    background-color: #161616;
+}
+
+.top-wa-btn{
+    width: 30%;
+}
+
+.plans h6 {
+    color: #FFF;
+    font-size: 25.537px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31.209px;
+    /* 122.21% */
+    text-transform: uppercase;
+}
+
+.plans h2 {
+    color: #F7D885;
+    text-align: center;
+    font-size: 67.358px;
+    font-family: 'poppin-bold';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 71.904px;
+    /* 106.748% */
+}
+
+.plans video {
+    border-radius: 18.548px;
+    width: 60%;
+}
+
+.plans video:hover {
+    cursor: pointer;
+}
+
+.plans video::-webkit-media-controls {
+    display: none !important;
+}
+
+.plans video::-webkit-media-controls-play-button,
+.plans video::-webkit-media-controls-start-playback-button {
+    display: none !important;
+}
+
+.plans video::-webkit-media-controls-play-button,
+.plans video::-webkit-media-controls-start-playback-button {
+    display: none !important;
+}
+
+.plans p {
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31.209px;
+    /* 120.033% */
+    text-transform: uppercase;
+}
+
+.plans p span {
+    color: #F7D885;
+    font-family: 'poppin-bold';
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.209px;
+    text-transform: uppercase;
+}
+
+.plans div {
+    margin-top: 40px;
+}
+
+.plans div a {
+    width: 40%;
+}
+
+.about-us h4 {
+    color: var(--Light-Grey---Live-Sports, #F5F5F5);
+    font-size: 32.169px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 39.313px;
+    /* 122.21% */
+}
+
+.about-us p {
+    color: var(--Light-Grey---Live-Sports, #F5F5F5);
+    text-align: center;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 39.709px;
+    /* 152.726% */
+    text-transform: uppercase;
+}
+
+.register .bg {
+    height: 450px;
+    border-radius: 22.028px;
+    background: #1E1E1E;
+    box-shadow: 0px 0px 5.29765px 0px rgba(0, 0, 0, 0.14);
+}
+
+.register .bg h5 {
+    color: #FFF;
+    font-size: 25.096px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30.67px;
+    /* 122.21% */
+}
+
+.register .bg ol {
+    color: #A3A3A3;
+    font-size: 16.731px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44.67px;
+    /* 266.994% */
+}
+
+.register .bg a {
+    border-radius: 5.889px;
+    border: 1.394px solid var(--LFL-Logo-Gradient, #F7D885);
+    display: flex;
+    width: 50%;
+    height: 47.696px;
+    padding: 12.791px 20.055px 12.548px 20.055px;
+    justify-content: center;
+    align-items: center;
+    gap: 14.325px;
+    color: #FFF;
+    text-align: center;
+    font-size: 19.519px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21.299px;
+    text-decoration: none;
+    /* 109.117% */
+}
+
+.register .input-wrapper {
+    position: relative;
+    margin: 30px 0;
+}
+
+.register input {
+    border: 1px solid #262427;
+    border-radius: 6px;
+    position: relative;
+    width: 100%;
+    line-height: 6ex;
+    background: transparent;
+    color: #fff;
+    font-size: 16.757px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 20px;
+    /* 84.549% */
+}
+
+.register .name-label {
+    position: absolute;
+    top: -6px;
+    z-index: 1;
+    left: 1em;
+    padding: 0 5px;
+    color: #FFF;
+    background-color: #1E1E1E;
+    font-size: 16.757px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14.168px;
+    /* 84.549% */
+}
+
+.register .email-label {
+    position: absolute;
+    top: -6px;
+    z-index: 1;
+    left: 1em;
+    padding: 0 5px;
+    color: #FFF;
+    background-color: #1E1E1E;
+    font-size: 16.757px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14.168px;
+    /* 84.549% */
+}
+
+.register .phone-label {
+    position: absolute;
+    top: -6px;
+    z-index: 1;
+    left: 1em;
+    padding: 0 5px;
+    color: #FFF;
+    background-color: #1E1E1E;
+    font-size: 16.757px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14.168px;
+    /* 84.549% */
+}
+
+.register .envelope {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-right: 1px solid #5F5F5F;
+    color: #5F5F5F;
+    padding-right: 10px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.register input.email {
+    padding-left: 60px;
+}
+
+.register .flag {
+    width: 50px;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-right: 1px solid #5F5F5F;
+    color: #5F5F5F;
+    padding-right: 14px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.register input.number {
+    padding-left: 70px;
+}
+
+.register .checkbox {
+    width: 26.133px;
+    height: 25.103px;
+    flex-shrink: 0;
+    border-radius: 6.982px;
+    border: 1.569px solid var(--LFL-Logo-Gradient, #F7D885);
+    background: transparent;
+    margin-top: 0;
+}
+
+.register .checkbox-label {
+    color: #FBFBFB;
+    font-size: 16.757px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 14.168px;
+    /* 84.549% */
+}
+
+.register button {
+    display: flex;
+    width: 50%;
+    height: 70px;
+    padding: 10.983px 17.22px 8.61px 17.22px;
+    justify-content: center;
+    align-items: center;
+    gap: 12.3px;
+    flex-shrink: 0;
+    border-radius: 5.057px;
+    background: var(--LFL-Logo-Gradient, linear-gradient(90deg, #F7D885 0%, #BF9050 100%));
+    color: #1E1E1E;
+    text-align: right;
+    text-shadow: 0px 0px 4.732759952545166px rgba(0, 0, 0, 0.14);
+    font-size: 27.928px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 9.563px;
+    /* 34.243% */
+    text-transform: uppercase;
+    border: none;
+    margin: 0 auto;
+}
+
+.footer .contact a {
+    color: #FFF;
+    font-size: 20.677px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 12.603px;
+    text-decoration: none;
+    /* 60.953% */
+}
+
+.footer .social .img-bg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #1E1E1E;
+    box-shadow: 0px 0px 5.29765px 0px rgba(0, 0, 0, 0.14);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16.541px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12.603px;
+    /* 76.191% */
+}
+
+.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 991px) {
+    .register .row {
+        gap: 30px;
+    }
+
+    .plans h6 {
+        font-size: 21.537px;
+    }
+
+    .plans h2 {
+        font-size: 48.569px;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+    
+    .top-wa-btn{
+        width: 60%;
+    }
+
+    .banner {
+        padding-bottom: 0 !important;
+    }
+
+    .plans h2 {
+        color: #F7D885;
+        text-align: center;
+        font-size: 33.494px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 35.754px;
+        /* 106.748% */
+    }
+
+    .plans video {
+        border-radius: 18.548px;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .plans p {
+        color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 18.569px;
+        /* 132.638% */
+        text-transform: uppercase;
+        margin-top: 20px !important;
+    }
+
+    .plans p span {
+        color: #F7D885;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18.569px;
+        text-transform: uppercase;
+    }
+
+    .plans div .vvip {
+        width: 50%;
+    }
+
+    .about-us h4 {
+        color: var(--Light-Grey---Live-Sports, #F5F5F5);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 21.998px;
+        /* 122.21% */
+    }
+
+    .about-us p {
+        color: var(--Light-Grey---Live-Sports, #F5F5F5);
+        text-align: center;
+        text-shadow: 0px 0px 3.0164847373962402px rgba(0, 0, 0, 0.14);
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21.998px;
+        /* 183.315% */
+    }
+
+    .register .bg {
+        height: unset;
+    }
+
+    /*.register .name-label,*/
+    /*.register .email-label,*/
+    /*.register .phone-label {*/
+    /*    color: #FFF;*/
+    /*    font-size: 10.68px;*/
+    /*    font-style: normal;*/
+    /*    font-weight: 400;*/
+    /*    line-height: 9.03px;*/
+    /*    top: -4px;*/
+        /* 84.549% */
+    /*}*/
+
+    /*.register input {*/
+    /*    color: var(--Light-Grey---Live-Sports, #F5F5F5);*/
+    /*    font-size: 10.68px;*/
+    /*    font-style: normal;*/
+    /*    font-weight: 400;*/
+        /* 84.549% */
+    /*}*/
+
+    .register .checkbox {
+        width: 16px;
+        height: 20px;
+        flex-shrink: 0;
+        border-radius: 4.45px;
+        border: 1px solid var(--LFL-Logo-Gradient, #F7D885);
+    }
+
+    .register .checkbox-label {
+        color: #FBFBFB;
+        font-size: 10.68px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 9.03px;
+        /* 84.549% */
+    }
+
+    .register button {
+        display: flex;
+        width: 100%;
+        height: 48px;
+        padding: 7px 10.975px 5.488px 10.975px;
+        justify-content: center;
+        align-items: center;
+        gap: 7.839px;
+        flex-shrink: 0;
+        color: #1E1E1E;
+        text-align: right;
+        text-shadow: 0px 0px 3.0164847373962402px rgba(0, 0, 0, 0.14);
+        font-size: 17.8px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 6.095px;
+        /* 34.243% */
+        text-transform: uppercase;
+    }
+
+    .register .bg h5 {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21.998px;
+        /* 122.21% */
+    }
+
+    .register .bg ol {
+        color: #A3A3A3;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 21.998px;
+        /* 183.315% */
+    }
+
+    .register .bg a {
+        display: flex;
+        width: 173px;
+        height: 32px;
+        padding: 9.174px 14.384px 9px 14.384px;
+        justify-content: center;
+        align-items: center;
+        gap: 10.274px;
+        flex-shrink: 0;
+        border-radius: 4.224px;
+        border: 1px solid var(--LFL-Logo-Gradient, #F7D885);
+        color: #FFF;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 15.276px;
+        /* 109.117% */
+    }
+
+    /*.footer .contact a {*/
+    /*    color: #FFF;*/
+    /*    text-align: right;*/
+    /*    font-size: 10px;*/
+    /*    font-style: normal;*/
+    /*    font-weight: 500;*/
+    /*    line-height: 6.095px;*/
+        /* 60.953% */
+    /*}*/
+
+    .footer .social .img-bg {
+        width: 40px;
+        height: 40px;
+    }
+
+    /*.footer p {*/
+    /*    color: #FFF;*/
+    /*    text-align: center;*/
+    /*    font-size: 8px;*/
+    /*    font-style: normal;*/
+    /*    font-weight: 400;*/
+    /*    line-height: 6.095px;*/
+        /* 76.191% */
+    /*}*/
+}
+
+@media screen and (max-width: 384px) {
+    .plans h2 {
+        font-size: 27.494px;
+        line-height: 30.754px;
+    }
+    
+    .wa_logo{
+        right: 20px !important;
+        bottom: 20px !important;
+    }
+    
+    .wa_logo img{
+        width: 40px !important;
+    }
+}
